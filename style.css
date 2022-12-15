@@ -1,0 +1,93 @@
+.menu_bar {
+  height: 60%;
+  width: 77%;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  padding:0 20%;
+  margin:0 25%;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.menu_bar ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu_bar ul li {
+  padding: 10px 10px;
+}
+
+.menu_bar ul li a {
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 18px;
+  transition: o.3s;
+}
+
+.menu_bar ul li a:hover {
+   color:yellow;
+}
+  
+.section_top {
+  width:80%;
+  height:500px;
+  margin: 0 5%;
+  overflow: hidden;
+  position: relative;
+  background-image: url(vaccine.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  .content {
+    float: left;
+    color:yellow;
+    text-decoration: aliceblue;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: none;
+    margin: 5% 5%;
+  }
+  
+  .content a {
+    float: left;
+    text-overflow: 2%;
+    color:yellow;
+    background: darkolivegreen;
+    margin: 0% 0%;
+    padding: 5px 6px;
+    height: 35px;
+    width: 20%;
+    text-decoration: aliceblue;
+    font-size: 14px;
+    border-radius: none;
+    font-family: 'Times New Roman', Times, serif
+  }
+  
+  .content a:hover{
+    background: darkslategrey;
+    color:lemonchiffon;
+    
+  }
+  
+  .form {
+    width:450px;
+    height:30px;
+    padding: 20px;
+    text-justify: none;
+    text-size: 20px
+  }
+  
+  .button{
+    width:80px;
+  }
+  
+
+
+
+
+
+
+
+
